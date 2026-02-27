@@ -1,0 +1,13 @@
+{
+    "actorSpecificationVersion": 1,
+    "name": "prediction-market-sentiment-scanner",
+    "version": "1.0.0",
+    "description": "Scrapes prediction market data from Kalshi, crypto prices from CoinGecko, and news sentiment from Finnhub",
+    "inputSchema": "INPUT_SCHEMA.json",
+    "dockerfile": "Dockerfile",
+    "mainPythonFile": "src/main.py",
+    "categories": ["DATA_SCRAPING", "FINANCE", "MARKET_INTELLIGENCE"],
+    "visibility": "public",
+    "memory": 256,
+    "timeout": 300
+}

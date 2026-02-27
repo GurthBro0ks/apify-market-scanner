@@ -1,0 +1,69 @@
+{
+    "title": "Prediction Market Scanner",
+    "description": "Scrapes prediction markets, crypto prices, and news sentiment",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "scanKalshi": {
+            "title": "Scan Kalshi",
+            "description": "Whether to scan prediction markets from Kalshi",
+            "type": "boolean",
+            "default": true
+        },
+        "kalshiCategories": {
+            "title": "Kalshi Categories",
+            "description": "Categories to scan from Kalshi",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "default": ["Economics", "Politics", "Climate and Weather"]
+        },
+        "scanCrypto": {
+            "title": "Scan Crypto",
+            "description": "Whether to fetch cryptocurrency prices from CoinGecko",
+            "type": "boolean",
+            "default": true
+        },
+        "cryptoSymbols": {
+            "title": "Crypto Symbols",
+            "description": "Cryptocurrency symbols to fetch prices for",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "default": ["bitcoin", "ethereum", "solana"]
+        },
+        "scanSentiment": {
+            "title": "Scan Sentiment",
+            "description": "Whether to fetch news sentiment from Finnhub (requires API key)",
+            "type": "boolean",
+            "default": false
+        },
+        "finnhubApiKey": {
+            "title": "Finnhub API Key",
+            "description": "API key for Finnhub (required for sentiment scanning)",
+            "type": "string",
+            "editor": "textfield",
+            "sensitive": true,
+            "default": ""
+        },
+        "sentimentTickers": {
+            "title": "Sentiment Tickers",
+            "description": "Stock tickers to fetch news sentiment for",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "default": ["AAPL", "NVDA", "TSLA", "META"]
+        },
+        "maxResults": {
+            "title": "Max Results",
+            "description": "Maximum number of results per data source",
+            "type": "integer",
+            "default": 100,
+            "minimum": 1,
+            "maximum": 1000
+        }
+    }
+}
