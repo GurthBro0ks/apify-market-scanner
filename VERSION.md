@@ -1,10 +1,10 @@
 # Version Snapshot — apify-market-scanner
 
-> Generated: 2026-04-08T11:02:53Z | Host: slimy-nuc1
+> Generated: 2026-04-08T11:33:35Z | Host: slimy-nuc1
 
 ## Git State
 - **Branch:** `master`
-- **HEAD:** `964afac`
+- **HEAD:** `8f40b48`
 - **Last commit:** `2026-04-08` — `docs: auto-sync project docs from slimy-nuc1 2026-04-08`
 - **Remote:** `git@github.com:GurthBro0ks/apify-market-scanner.git`
 - **Dirty:** NO
