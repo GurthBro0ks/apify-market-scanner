@@ -1,13 +1,13 @@
 # Version Snapshot — apify-market-scanner
 
-> Generated: 2026-04-10T19:21:44Z | Host: slimy-nuc1
+> Generated: 2026-04-11T22:27:44Z | Host: slimy-nuc1
 
 ## Git State
 - **Branch:** `master`
-- **HEAD:** `92e927f`
+- **HEAD:** `85cd5f2`
 - **Last commit:** `2026-04-10` — `docs: auto-sync project docs from slimy-nuc1 2026-04-10`
 - **Remote:** `git@github.com:GurthBro0ks/apify-market-scanner.git`
-- **Dirty:** NO
+- **Dirty:** YES (2 uncommitted)
 
 ## Runtime
 - **Runtime info:** N/A
@@ -16,7 +16,7 @@
 - **Listening ports:** none detected
 
 ## Last Verified
-- **Date:** 2026-04-10
+- **Date:** 2026-04-11
 - **Verification:** `git --no-pager -C /opt/slimy/apify-market-scanner log -1 --oneline`
 
 ## Host Notes
